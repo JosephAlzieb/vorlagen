@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package Aggregate <<Rectangle>> {
+  class Buch <root entity>
+  class AutorID <value>
+  class BuchID <value>
+  class Kapitel <entity>
+  class KapitelID <value>
+  enum Status <value>
+
+
+  Buch o-- Kapitel
+  Buch o-- AutorID
+  Buch --> BuchID
+  Kapitel --> Status
+  Kapitel -->KapitelID
+  Buch --> Status
+
+}
+
+hide members
+@enduml
