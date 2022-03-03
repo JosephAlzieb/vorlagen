@@ -7,5 +7,4 @@ services:
     volumes:
       - ./data:/var/lib/mysql
     environment:
-      - "MYSQL_ROOT_PASSWORD=iamgroot"
-  
+      - "MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}"
