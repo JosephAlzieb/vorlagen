@@ -21,3 +21,10 @@ package Aggregate <<Rectangle>> {
 
 hide members
 @enduml
+
+
+'Aggregation:ist eine (besteht aus)-Beziehung zwischen zwei voneinander unabhängige Klassen (nicht gefülltes Pfile)
+'--Pc hat eine Tastatur, und eine Tastatur gehört zu genau einem Pc. 1-1-Beziehung
+'
+'Composition:Ist ein SonderFall der Aggregation. Hier zwischen zwei voneinander abhängige Klassen (gefülltes Pfile)
+'--Pc hat einen LieferSchein. existiert Pc nicht => existiert LieferSchein nicht
