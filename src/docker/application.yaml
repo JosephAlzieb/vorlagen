@@ -7,6 +7,6 @@ spring:
     password: iamgroot
   datasource:
     url: jdbc:mariadb://localhost:3307/database
-    username: root
-    password: iamgroot
+    username: ${USER_NAME}
+    password: ${PASSWORD}
 
