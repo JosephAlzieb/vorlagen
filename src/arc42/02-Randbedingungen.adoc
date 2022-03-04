@@ -1,0 +1,45 @@
+= Randbedingungen
+
+
+### Organisatorische Randbedingungen
+
+|=======
+| Randbedingung          | Hintergrund und Erläuterungen
+
+| Team                   | Joseph Alzieb,
+
+
+| Zeitplan               | 3 Wochen (07.03.2022 - 27.03.2022)
+
+| Entwicklungswerkzeuge  | Intellij, Docker, Webbrowser, gradle, Discord, hhu Rocketchat, spring,
+
+| Versionsverwaltung     | GitHub, GitHub Actions
+
+|=======
+
+
+### Technische Randbedingungen
+
+|=======
+| Randbedingung                                 | Hintergrund und Erläuterungen
+
+| Implementierung in Java 17 als SpringBoot App |
+
+| Ausführbar mit docker-compose up              |
+|=======
+
+
+### Konventionen
+
+|=======
+| Konvention    | Hintergrund und Erläuterungen
+
+| Dokumentation | arc42
+
+| Checkstyle    | Wir benutzen GitHub Actions für Codequalität, Spotbugs und als Vorlage die Google Java Configuration
+für Checkstyle.
+
+| Sprache       | Englisch und Deutsch
+
+
+|=======

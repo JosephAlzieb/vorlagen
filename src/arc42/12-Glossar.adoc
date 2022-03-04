@@ -1,0 +1,11 @@
+= Glossar
+
+[cols="1,5" options="header"]
+|===
+|Begriff
+|Definition
+
+|Dozent
+|Ein User, der Veranstaltungen anlegen und Fragebögen erstellen kann.
+Außerdem kann der Dozent bestimmen, welche Studierende an seinen Fragebögen teilnehmen dürfen und
+welche Egebnisse veröffentlicht werden.

@@ -1,0 +1,23 @@
+= Entwurfsentscheidungen
+
+== Architektur
+
+=== Onion Architektur
+
+wir haben uns für Onion-Architektur entschieden, da dies das Testing vereinfacht und ermöglicht eine bessere Kapselung der Business-Logik.
+Außerdem minimiert sie die Abhängigkeiten zwischen den verschiedenen Schichten.
+
+Die Onion-Architektur bietet uns Erweiterbarkeit, Skalierbarkeit.
+
+Unsere Modellierung hat klare Struktur und besteht im Wesentlichen aus ....
+Wir unterscheiden aber zwischen zwei Rollen in unserer Modellierung, das sind Dozent und Student, die jeweils verschieden Beziehungen zu den anderen Objekten haben.
+
+Das Ziel unserer Modellierung war, die Applikation erweiterbar und flexibel zu halten.
+Aus diesen Gründen halten wir Onion-Architektur für die beste Architektur, um das Projekt langlebig zu machen.
+
+=== Vererbung
+
+=== Datenbank
+
+Im Development Prozess haben wir Fake Repositories benutzt.
+Als Datenbank nutzen wir aber eine MariaDB-Datenbank, die mit Hilfe des docker-compose Files leicht gestartet werden kann.

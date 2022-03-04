@@ -1,0 +1,15 @@
+= Kontextabgrenzung
+
+== Fachliche Abgrenzung
+
+Unser System ...was macht
+
+Dozierende: ...
+
+Studierende: ...
+
+
+== Technische Abgrenzung
+
+Wir benutzen JDBC als Protokoll für unsere Datenbank und da unsere Anwendung über Docker läuft, wird keine spezielle
+Hardware für benötigt.
