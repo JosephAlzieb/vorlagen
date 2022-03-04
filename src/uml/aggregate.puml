@@ -1,7 +1,7 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-package Aggregate <<Rectangle>> {
+package Aggregate-Buch <<Rectangle>> {
   class Buch <root entity>
   class AutorID <value>
   class BuchID <value>
